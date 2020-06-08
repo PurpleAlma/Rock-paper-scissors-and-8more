@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+
+    padding: 0;
+    border: 0;
+    height: 100%;
+    text-align: center;
+}
+body{
+    background-image: url('back.jpg');
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+header{
+    text-align: center;
+
+}
+header h1{
+    font-size: 50px;
+}
+.sidebar{
+    position: relative;
+    margin-left: 0;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    float:left ;
+}
+.sidebar2{
+    position: relative;
+    margin-left: 0;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    float:right ;
+}
+
+#details{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+
+}
+#details2{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+#details:hover{
+    background-color: #c3e8e2;
+    opacity: 0.5;
+}
+#details2:hover{
+    background-color:#fdc6c6;
+    opacity: 0.5;
+}
+
+.picks{
+    margin-top: 20px;
+    padding-left: 12px;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    grid-column-gap: 75px;
+    grid-row-gap: 50px;
+}
+
+
+.pick{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+img{
+    width: 50px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+
+.scoreboard{
+    text-align: center;
+    font-size: 100px;
+}
+
+.results{
+    font-size: 100px;
+}
+
+
+
+
+/*details*/
+.rock-details p{
+    color:green;
+}
+.fire-details p{
+    color:red;
+}
+.scissors-details p{
+    color:grey;
+}
+.human-details p{
+    color:black;
+}
+.wolf-details p{
+    color:brown;
+}
+.sponge-details p{
+    color:orange;
+}
+.paper-details p{
+    color:white;
+}
+.air-details p{
+    color:pink;
+}
+.water-details p{
+    color:blue;
+}
+.devil-details p{
+    color:purple;
+}
+.gun-details p{
+    color:yellow;
+}
+#rock:hover, #wolf:hover, #sponge:hover, #fire:hover, #scissors:hover,#water:hover, #human:hover, #gun:hover,#devil:hover,#air:hover,#paper:hover{
+    opacity: 0.6;
+}
+
+#rock:hover{
+    background-image: url("rock.gif");
+    background-size:cover;
+}
+#wolf:hover{
+    background-image: url("wolf.gif");
+    background-size:cover;
+}
+#sponge:hover{
+    background-image: url("sponge.gif");
+    background-size:cover;
+}
+#fire:hover{
+    background-image: url("fire.gif");
+    background-size:cover;
+}
+#scissors:hover{
+    background-image: url("scissors.gif");
+    background-size:cover;
+}
+#human:hover{
+    background-image: url("human.gif");
+    background-size:cover;
+}
+#water:hover{
+    background-image: url("water.gif");
+    background-size:cover;
+}
+#gun:hover{
+    background-image: url("gun.gif");
+    background-size:cover;
+}
+#devil:hover{
+    background-image: url("devil.gif");
+    background-size:cover;
+}
+#air:hover{
+    background-image: url("air.gif");
+    background-size:cover;
+}
+#paper:hover{
+    background-image: url("paper.gif");
+    background-size:cover;
+}
+#action{
+    background-image: url("think.gif");
+    background-size: cover;
+    text-align: center;
+}
+#action p{
+    background-color: white;
+    width: 80px;
+    margin-left: 32px;
+    margin-top: 60px;
+}
+.actionwin{ 
+    background-image: url("happy.gif");
+    background-size: cover;
+}
+.actionloose{
+    background-image: url("winning.jpg");
+    background-size: cover;
+    background-position: -2vmax;
+}
+
+.winner{
+    border:3px solid greenyellow;
+    opacity: 0.5;
+    transition: 0.3s all ease;
+    overflow: hidden;
+}
+.looser{
+    border:3px solid red;
+    opacity: 0.5;
+    transition: 0.3s all ease;
+}
+.draw{
+    border:3px solid grey;
+    opacity: 0.5;
+    transition: 0.3s all ease;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylerps11.css">
+    <title>RPS11</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Gun Devil Water Air Paper Sponge Wolf Human Scissors Fire
+        </h1>
+    </header>
+    <div class="sidebar">
+        <div id="details" class="rock-details">
+            <p>Rock beats</p> Fire, Scissors Human Wolf Sponge
+        </div>
+        <div id="details" class="fire-details">
+            <p>Fire beats</p> Scissors, Paper, Human, Wolf, Sponge
+        </div>
+        <div id="details" class="scissors-details">
+            <p>Scissors beats</p> Air, Paper, Human, Wolf, Sponge
+        </div>
+        <div id="details" class="human-details">
+            <p>Human beats</p> Wolf, Sponge, Paper, Air, Water
+        </div>
+        <div id="details" class="wolf-details">
+            <p>Wolf beats</p> Sponge, Paper, Air, Water, Devil,
+        </div>
+        <div id="details" class="sponge-details">
+            <p>Sponge beats</p> Paper, Air, Water, Devil, Gun
+        </div>
+        <div id="details" class="paper-details">
+            <p>Paper beats</p>Air, Rock, Water, Devil, Gun
+        </div>
+        <div id="details" class="air-details">
+            <p>Air beats</p>Fire, Rock, Water, Devil, Gun
+        </div>
+        <div id="details" class="water-details">
+            <p>Water beats</p>Devil, Rock, Fire, Scissors, Gun
+        </div>
+        <div id="details" class="devil-details">
+            <p>Devil beats</p>Rock, Fire, Scissors, Gun, Human
+        </div>
+        <div id="details" class="gun-details">
+            <p>Gun beats</p>Rock, Fire, Scissors, Human, Wolf
+        </div>
+    </div>
+    <div class="sidebar2">
+        <div id="details2" class="rock-details">
+            <p>Rock is beaten by</p>Paper, Air, Water, Devil, Gun
+        </div>
+        <div id="details2" class="fire-details">
+            <p>Fire is beaten by</p>Rock, Air, Water, Devil, Gun
+        </div>
+        <div id="details2" class="scissors-details">
+            <p>Scissors is beaten by</p>Rock, Fire, Water, Devil, Gun
+        </div>
+        <div id="details2" class="human-details">
+            <p>Human is beaten by</p>Rock, Fire, Scissors, Devil, Gun
+        </div>
+        <div id="details2" class="wolf-details">
+            <p>Wolf is beaten by</p>Rock, Fire, Scissors, Gun, Human
+        </div>
+        <div id="details2" class="sponge-details">
+            <p>Sponge is beaten by</p>Fire, Human, Wolf, Rock, Scissors  
+        </div>
+        <div id="details2" class="paper-details">
+            <p>Paper is beaten by</p>Scissors, Human, Wolf, Sponge, Fire
+        </div>
+        <div id="details2" class="air-details">
+            <p>Air is beaten by</p>Scissors, Human, Wolf, Paper, Sponge
+        </div>
+        <div id="details2" class="water-details">
+            <p>Water is beaten by</p>Human, Wolf, Paper, Sponge, Air 
+        </div>
+        <div id="details2" class="devil-details">
+            <p>Devil is beaten by</p>Wolf, Sponge, Paper, Air, Water
+        </div>
+        <div id="details2" class="gun-details">
+            <p>Gun is beaten by</p>Sponge, Paper, Air, Water, Devil
+        </div>
+    </div>
+
+    <div class="scoreboard">
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="results">
+        WHO IS THE WINNER
+    </div>
+
+
+    <div class="picks">
+        <div class="pick" id="rock">
+            <img src="rock.png">
+            <p>Rock</p>
+        </div>
+        
+        <div class="pick" id="fire">
+            <img src="fire.png">
+            <p>Fire</p> 
+        </div>
+
+        <div class="pick" id="scissors">
+            <img src="scissors.png">
+            <p>Scissors</p>
+        </div>
+
+        <div class="pick" id="human">
+            <img src="human.png"> 
+            <p>Human</p>
+        </div>
+
+        <div class="pick" id="wolf">
+            <img src="wolf.png">
+            <p>Wolf</p> 
+        </div>
+
+        <div class="pick" id="sponge">
+            <img src="sponge.png"> 
+            <p>Sponge</p>
+        </div>
+
+        <div class="pick" id="paper">
+            <img src="paper.png"> 
+            <p>Paper</p>
+        </div>
+
+        <div class="pick" id="air">
+            <img src="air.png"> 
+            <p>Air</p>
+        </div>
+
+        <div class="pick" id="water">
+            <img src="water.png"> 
+            <p>Water</p>
+        </div>
+
+        <div class="pick" id="devil">
+            <img src="devil.png">
+            <p>Devil</p> 
+        </div>
+
+        <div class="pick" id="gun">
+            <img src="gun.png"> 
+            <p>Gun</p>
+        </div>
+        <div class="pick" id="action">
+            <p>PICK ONE</p>
+        </div>
+        
+    </div>
+    <script src="rps11app.js"></script>
+</body>
+</html>
