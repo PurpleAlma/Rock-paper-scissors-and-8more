@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1001px) {
 *{
     margin:0;
     padding:0;
@@ -25,15 +26,17 @@ header h1{
 .sidebar{
     position: relative;
     margin-left: 0;
-    width: 23%;
+    width: 20%;
+    font-size: small;
     height: 100%;
     display: inline-block;
     float:left ;
 }
 .sidebar2{
+    font-size: small;
     position: relative;
     margin-left: 0;
-    width: 23%;
+    width: 20%;
     height: 100%;
     display: inline-block;
     float:right ;
@@ -41,12 +44,12 @@ header h1{
 
 #details{
     border-bottom: 1px solid black;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 #details2{
     border-bottom: 1px solid black;
-    font-size: 30px;
+    font-size: 20px;
 }
 #details:hover{
     background-color: #c3e8e2;
@@ -63,22 +66,24 @@ header h1{
     position: relative;
     justify-content: center;
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    grid-template-rows: 150px 150px;
-    grid-column-gap: 75px;
+    grid-template-columns: 120px 120px 120px 120px;
+    grid-template-rows: 120px 120px;
+    grid-column-gap: 30px;
     grid-row-gap: 50px;
 }
 
 
 .pick{
-    height: 150px;
-    width: 150px;
+    height: 110px;
+    width: 110px;
     border: 3px solid black;
     border-radius: 50%;
     justify-content: center;
     text-align: center;
     cursor: pointer;
-    
+}
+.pick p{
+    margin-top: 20px;
 }
 
 img{
@@ -139,51 +144,51 @@ img{
 }
 
 #rock:hover{
-    background-image: url("rock.gif");
+    background-image: url("gifs/rock.gif");
     background-size:cover;
 }
 #wolf:hover{
-    background-image: url("wolf.gif");
+    background-image: url("gifs/wolf.gif");
     background-size:cover;
 }
 #sponge:hover{
-    background-image: url("sponge.gif");
+    background-image: url("gifs/sponge.gif");
     background-size:cover;
 }
 #fire:hover{
-    background-image: url("fire.gif");
+    background-image: url("gifs/fire.gif");
     background-size:cover;
 }
 #scissors:hover{
-    background-image: url("scissors.gif");
+    background-image: url("gifs/scissors.gif");
     background-size:cover;
 }
 #human:hover{
-    background-image: url("human.gif");
+    background-image: url("gifs/human.gif");
     background-size:cover;
 }
 #water:hover{
-    background-image: url("water.gif");
+    background-image: url("gifs/water.gif");
     background-size:cover;
 }
 #gun:hover{
-    background-image: url("gun.gif");
+    background-image: url("gifs/gun.gif");
     background-size:cover;
 }
 #devil:hover{
-    background-image: url("devil.gif");
+    background-image: url("gifs/devil.gif");
     background-size:cover;
 }
 #air:hover{
-    background-image: url("air.gif");
+    background-image: url("gifs/air.gif");
     background-size:cover;
 }
 #paper:hover{
-    background-image: url("paper.gif");
+    background-image: url("gifs/paper.gif");
     background-size:cover;
 }
 #action{
-    background-image: url("think.gif");
+    background-image: url("gifs/think.gif");
     background-size: cover;
     text-align: center;
 }
@@ -219,3 +224,175 @@ img{
     opacity: 0.5;
     transition: 0.3s all ease;
 }
+
+}
+
+
+
+
+
+
+/*PHONE????*/
+@media only screen and 
+(min-width: 600px) and
+(max-width: 1000px) {
+    *{
+        margin:0;
+        padding:0;
+    }
+    html, body{
+    
+        padding: 0;
+        border: 0;
+        height: 100vh;
+        text-align: center;
+    }
+    .sidebar,.sidebar2{display: none;}
+    body{
+        background-image: url('back.jpg');
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+    }
+    header{
+        text-align: center;
+        font-size: small;
+    
+    }
+    header h1{
+        font-size: 20px;
+    }
+
+    
+  
+
+    
+    .picks{
+        margin-top: 20px;
+        padding-left: 12px;
+        position: relative;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        grid-template-rows: 50px 50px;
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+    
+    
+    .pick{
+        height: 80px;
+        width: 80px;
+        border: 3px solid black;
+        border-radius: 50%;
+        justify-content: center;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    
+    img{
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    
+    
+    .scoreboard{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .results{
+        font-size: 20px;
+    }
+    
+    
+    #rock:hover, #wolf:hover, #sponge:hover, #fire:hover, #scissors:hover,#water:hover, #human:hover, #gun:hover,#devil:hover,#air:hover,#paper:hover{
+        opacity: 0.6;
+    }
+    
+    #rock:hover{
+        background-image: url("gifs/rock.gif");
+        background-size:cover;
+    }
+    #wolf:hover{
+        background-image: url("gifs/wolf.gif");
+        background-size:cover;
+    }
+    #sponge:hover{
+        background-image: url("gifs/sponge.gif");
+        background-size:cover;
+    }
+    #fire:hover{
+        background-image: url("gifs/fire.gif");
+        background-size:cover;
+    }
+    #scissors:hover{
+        background-image: url("gifs/scissors.gif");
+        background-size:cover;
+    }
+    #human:hover{
+        background-image: url("gifs/human.gif");
+        background-size:cover;
+    }
+    #water:hover{
+        background-image: url("gifs/water.gif");
+        background-size:cover;
+    }
+    #gun:hover{
+        background-image: url("gifs/gun.gif");
+        background-size:cover;
+    }
+    #devil:hover{
+        background-image: url("gifs/devil.gif");
+        background-size:cover;
+    }
+    #air:hover{
+        background-image: url("gifs/air.gif");
+        background-size:cover;
+    }
+    #paper:hover{
+        background-image: url("gifs/paper.gif");
+        background-size:cover;
+    }
+    #action{
+        background-image: url("gifs/think.gif");
+        background-size: cover;
+        text-align: center;
+    }
+    #action p{
+        background-color: white;
+        width: 80px;
+        margin-left: 32px;
+        margin-top: 60px;
+    }
+    .actionwin{ 
+        background-image: url("happy.gif");
+        background-size: cover;
+    }
+    .actionloose{
+        background-image: url("winning.jpg");
+        background-size: cover;
+        background-position: -2vmax;
+    }
+    
+    .winner{
+        border:3px solid greenyellow;
+        opacity: 0.5;
+        transition: 0.3s all ease;
+        overflow: hidden;
+    }
+    .looser{
+        border:3px solid red;
+        opacity: 0.5;
+        transition: 0.3s all ease;
+    }
+    .draw{
+        border:3px solid grey;
+        opacity: 0.5;
+        transition: 0.3s all ease;
+    }
+
+
+  }
